@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A10D9522A76C81A00035B75 /* BaseScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D9512A76C81A00035B75 /* BaseScreen.swift */; };
+		6A10D9542A76C88700035B75 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D9532A76C88700035B75 /* StartScreen.swift */; };
+		6A10D9562A76C89F00035B75 /* QuestionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D9552A76C89F00035B75 /* QuestionScreen.swift */; };
+		6A10D9582A76C8E200035B75 /* FinalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D9572A76C8E200035B75 /* FinalScreen.swift */; };
+		6A10D95A2A76D5FB00035B75 /* StartTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D9592A76D5FB00035B75 /* StartTest.swift */; };
+		6A10D95C2A76D6E900035B75 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D95B2A76D6E900035B75 /* BaseTest.swift */; };
+		6A10D95E2A76D9C700035B75 /* WaitUtilites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D95D2A76D9C700035B75 /* WaitUtilites.swift */; };
+		6A10D9602A76DE8C00035B75 /* QuestionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A10D95F2A76DE8C00035B75 /* QuestionTest.swift */; };
+		6AFCAECB2A53654E002A0160 /* TriviaGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAECA2A53654E002A0160 /* TriviaGameApp.swift */; };
+		6AFCAECD2A53654E002A0160 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAECC2A53654E002A0160 /* ContentView.swift */; };
+		6AFCAECF2A53654E002A0160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFCAECE2A53654E002A0160 /* Assets.xcassets */; };
+		6AFCAED22A53654E002A0160 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AFCAED12A53654E002A0160 /* Preview Assets.xcassets */; };
+		6AFCAEDA2A536696002A0160 /* PrimaryButon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAED92A536696002A0160 /* PrimaryButon.swift */; };
+		6AFCAEDE2A536D9A002A0160 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEDD2A536D9A002A0160 /* Extensions.swift */; };
+		6AFCAEE02A537174002A0160 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEDF2A537174002A0160 /* QuestionView.swift */; };
+		6AFCAEE22A537208002A0160 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEE12A537208002A0160 /* ProgressBarView.swift */; };
+		6AFCAEE52A537314002A0160 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEE42A537314002A0160 /* Answer.swift */; };
+		6AFCAEE72A537383002A0160 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEE62A537383002A0160 /* AnswerRow.swift */; };
+		6AFCAEE92A5377AF002A0160 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEE82A5377AF002A0160 /* TriviaView.swift */; };
+		6AFCAEEB2A537855002A0160 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEEA2A537855002A0160 /* Trivia.swift */; };
+		6AFCAEED2A537A53002A0160 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFCAEEC2A537A53002A0160 /* TriviaManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A10D9492A76C30B00035B75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AFCAEBF2A53654E002A0160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AFCAEC62A53654E002A0160;
+			remoteInfo = TriviaGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A10D9432A76C30B00035B75 /* TriviaGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviaGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A10D9512A76C81A00035B75 /* BaseScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScreen.swift; sourceTree = "<group>"; };
+		6A10D9532A76C88700035B75 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		6A10D9552A76C89F00035B75 /* QuestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionScreen.swift; sourceTree = "<group>"; };
+		6A10D9572A76C8E200035B75 /* FinalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalScreen.swift; sourceTree = "<group>"; };
+		6A10D9592A76D5FB00035B75 /* StartTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTest.swift; sourceTree = "<group>"; };
+		6A10D95B2A76D6E900035B75 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		6A10D95D2A76D9C700035B75 /* WaitUtilites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitUtilites.swift; sourceTree = "<group>"; };
+		6A10D95F2A76DE8C00035B75 /* QuestionTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTest.swift; sourceTree = "<group>"; };
+		6AFCAEC72A53654E002A0160 /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AFCAECA2A53654E002A0160 /* TriviaGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGameApp.swift; sourceTree = "<group>"; };
+		6AFCAECC2A53654E002A0160 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6AFCAECE2A53654E002A0160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AFCAED12A53654E002A0160 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AFCAED92A536696002A0160 /* PrimaryButon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButon.swift; sourceTree = "<group>"; };
+		6AFCAEDD2A536D9A002A0160 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6AFCAEDF2A537174002A0160 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		6AFCAEE12A537208002A0160 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		6AFCAEE42A537314002A0160 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		6AFCAEE62A537383002A0160 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		6AFCAEE82A5377AF002A0160 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		6AFCAEEA2A537855002A0160 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		6AFCAEEC2A537A53002A0160 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A10D9402A76C30B00035B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFCAEC42A53654E002A0160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A10D9442A76C30B00035B75 /* TriviaGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A10D9502A76C80500035B75 /* Utilities */,
+				6A10D94F2A76C6C800035B75 /* Tests */,
+				6A10D94E2A76C6C100035B75 /* Pages */,
+			);
+			path = TriviaGameUITests;
+			sourceTree = "<group>";
+		};
+		6A10D94E2A76C6C100035B75 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				6A10D9512A76C81A00035B75 /* BaseScreen.swift */,
+				6A10D9532A76C88700035B75 /* StartScreen.swift */,
+				6A10D9552A76C89F00035B75 /* QuestionScreen.swift */,
+				6A10D9572A76C8E200035B75 /* FinalScreen.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		6A10D94F2A76C6C800035B75 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6A10D9592A76D5FB00035B75 /* StartTest.swift */,
+				6A10D95B2A76D6E900035B75 /* BaseTest.swift */,
+				6A10D95F2A76DE8C00035B75 /* QuestionTest.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6A10D9502A76C80500035B75 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				6A10D95D2A76D9C700035B75 /* WaitUtilites.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		6AFCAEBE2A53654E002A0160 = {
+			isa = PBXGroup;
+			children = (
+				6AFCAEC92A53654E002A0160 /* TriviaGame */,
+				6A10D9442A76C30B00035B75 /* TriviaGameUITests */,
+				6AFCAEC82A53654E002A0160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AFCAEC82A53654E002A0160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAEC72A53654E002A0160 /* TriviaGame.app */,
+				6A10D9432A76C30B00035B75 /* TriviaGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AFCAEC92A53654E002A0160 /* TriviaGame */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAEDD2A536D9A002A0160 /* Extensions.swift */,
+				6AFCAEEE2A537A5B002A0160 /* Managers */,
+				6AFCAEE32A53730A002A0160 /* Models */,
+				6AFCAEDB2A536CA5002A0160 /* Views */,
+				6AFCAED82A536682002A0160 /* Components */,
+				6AFCAECA2A53654E002A0160 /* TriviaGameApp.swift */,
+				6AFCAECE2A53654E002A0160 /* Assets.xcassets */,
+				6AFCAED02A53654E002A0160 /* Preview Content */,
+			);
+			path = TriviaGame;
+			sourceTree = "<group>";
+		};
+		6AFCAED02A53654E002A0160 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAED12A53654E002A0160 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AFCAED82A536682002A0160 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAED92A536696002A0160 /* PrimaryButon.swift */,
+				6AFCAEE12A537208002A0160 /* ProgressBarView.swift */,
+				6AFCAEE62A537383002A0160 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6AFCAEDB2A536CA5002A0160 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAECC2A53654E002A0160 /* ContentView.swift */,
+				6AFCAEDF2A537174002A0160 /* QuestionView.swift */,
+				6AFCAEE82A5377AF002A0160 /* TriviaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6AFCAEE32A53730A002A0160 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAEE42A537314002A0160 /* Answer.swift */,
+				6AFCAEEA2A537855002A0160 /* Trivia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6AFCAEEE2A537A5B002A0160 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6AFCAEEC2A537A53002A0160 /* TriviaManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A10D9422A76C30B00035B75 /* TriviaGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A10D94B2A76C30B00035B75 /* Build configuration list for PBXNativeTarget "TriviaGameUITests" */;
+			buildPhases = (
+				6A10D93F2A76C30B00035B75 /* Sources */,
+				6A10D9402A76C30B00035B75 /* Frameworks */,
+				6A10D9412A76C30B00035B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A10D94A2A76C30B00035B75 /* PBXTargetDependency */,
+			);
+			name = TriviaGameUITests;
+			productName = TriviaGameUITests;
+			productReference = 6A10D9432A76C30B00035B75 /* TriviaGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6AFCAEC62A53654E002A0160 /* TriviaGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AFCAED52A53654E002A0160 /* Build configuration list for PBXNativeTarget "TriviaGame" */;
+			buildPhases = (
+				6AFCAEC32A53654E002A0160 /* Sources */,
+				6AFCAEC42A53654E002A0160 /* Frameworks */,
+				6AFCAEC52A53654E002A0160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriviaGame;
+			productName = TriviaGame;
+			productReference = 6AFCAEC72A53654E002A0160 /* TriviaGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AFCAEBF2A53654E002A0160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A10D9422A76C30B00035B75 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6AFCAEC62A53654E002A0160;
+					};
+					6AFCAEC62A53654E002A0160 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 6AFCAEC22A53654E002A0160 /* Build configuration list for PBXProject "TriviaGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AFCAEBE2A53654E002A0160;
+			productRefGroup = 6AFCAEC82A53654E002A0160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AFCAEC62A53654E002A0160 /* TriviaGame */,
+				6A10D9422A76C30B00035B75 /* TriviaGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A10D9412A76C30B00035B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFCAEC52A53654E002A0160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFCAED22A53654E002A0160 /* Preview Assets.xcassets in Resources */,
+				6AFCAECF2A53654E002A0160 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A10D93F2A76C30B00035B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A10D9562A76C89F00035B75 /* QuestionScreen.swift in Sources */,
+				6A10D9542A76C88700035B75 /* StartScreen.swift in Sources */,
+				6A10D95C2A76D6E900035B75 /* BaseTest.swift in Sources */,
+				6A10D9602A76DE8C00035B75 /* QuestionTest.swift in Sources */,
+				6A10D9582A76C8E200035B75 /* FinalScreen.swift in Sources */,
+				6A10D95A2A76D5FB00035B75 /* StartTest.swift in Sources */,
+				6A10D95E2A76D9C700035B75 /* WaitUtilites.swift in Sources */,
+				6A10D9522A76C81A00035B75 /* BaseScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AFCAEC32A53654E002A0160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFCAECD2A53654E002A0160 /* ContentView.swift in Sources */,
+				6AFCAEE92A5377AF002A0160 /* TriviaView.swift in Sources */,
+				6AFCAEEB2A537855002A0160 /* Trivia.swift in Sources */,
+				6AFCAEE22A537208002A0160 /* ProgressBarView.swift in Sources */,
+				6AFCAEED2A537A53002A0160 /* TriviaManager.swift in Sources */,
+				6AFCAEE72A537383002A0160 /* AnswerRow.swift in Sources */,
+				6AFCAECB2A53654E002A0160 /* TriviaGameApp.swift in Sources */,
+				6AFCAEE52A537314002A0160 /* Answer.swift in Sources */,
+				6AFCAEDA2A536696002A0160 /* PrimaryButon.swift in Sources */,
+				6AFCAEDE2A536D9A002A0160 /* Extensions.swift in Sources */,
+				6AFCAEE02A537174002A0160 /* QuestionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A10D94A2A76C30B00035B75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AFCAEC62A53654E002A0160 /* TriviaGame */;
+			targetProxy = 6A10D9492A76C30B00035B75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A10D94C2A76C30B00035B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.TriviaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriviaGame;
+			};
+			name = Debug;
+		};
+		6A10D94D2A76C30B00035B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.TriviaGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TriviaGame;
+			};
+			name = Release;
+		};
+		6AFCAED32A53654E002A0160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6AFCAED42A53654E002A0160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AFCAED62A53654E002A0160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriviaGame/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.TriviaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AFCAED72A53654E002A0160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TriviaGame/Preview Content\"";
+				DEVELOPMENT_TEAM = Y5JW4F4D62;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elifbilgeparlak.TriviaGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A10D94B2A76C30B00035B75 /* Build configuration list for PBXNativeTarget "TriviaGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A10D94C2A76C30B00035B75 /* Debug */,
+				6A10D94D2A76C30B00035B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFCAEC22A53654E002A0160 /* Build configuration list for PBXProject "TriviaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFCAED32A53654E002A0160 /* Debug */,
+				6AFCAED42A53654E002A0160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AFCAED52A53654E002A0160 /* Build configuration list for PBXNativeTarget "TriviaGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AFCAED62A53654E002A0160 /* Debug */,
+				6AFCAED72A53654E002A0160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AFCAEBF2A53654E002A0160 /* Project object */;
+}
